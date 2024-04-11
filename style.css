@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    color: white;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-color: hsl(0, 0%, 8%);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.card {
+    width: 300px;
+    padding: 30px;
+    border-radius: 16px;
+    background-color: hsl(0, 0%, 12%);
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+}
+
+.card-icon-profile {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+}
+
+.card-icon-profile img {
+    width: 100%;
+}
+
+.card-name {
+    margin: 0px;
+    font-size: 28px;
+    font-weight: 400;
+    margin-bottom: 12px;
+}
+
+.card-location {
+    margin: 0px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    color: hsl(75, 94%, 57%);
+}
+
+.card-title {
+    margin: 0px;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+.card-buttons {
+    width: 100%;
+    gap: 16px;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.btn-primary {
+    width: 100%;
+    background-color: hsl(0, 0%, 20%);
+    font-weight: 700;
+    font-size: 13px;
+    color: white;
+    padding: 16px;
+    border-radius: 8px;
+    border: 0px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+}
+
+.btn-primary:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 8%);
+}
